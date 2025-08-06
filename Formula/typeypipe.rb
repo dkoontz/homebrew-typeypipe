@@ -2,16 +2,16 @@ class Typeypipe < Formula
   desc "Shell wrapper that creates a mailbox system for external applications"
   homepage "https://github.com/dkoontz/TypeyPipe"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
-    url "https://github.com/dkoontz/TypeyPipe/releases/download/v0.1.0/typeypipe-v0.1.0-macos-x64.tar.gz"
-    sha256 "605f2ed1171b17052b0fe29e4e6a39a5b3b59a3034989cfa84fe383fcfab167c"
+    url "https://github.com/dkoontz/TypeyPipe/releases/download/v0.2.0/typeypipe-v0.2.0-macos-x64.tar.gz"
+    sha256 "a881dd2881a3b890326bf2f6b7549d299e81b006d26c7f91deeae630b664e402"
   end
 
   on_linux do
-    url "https://github.com/dkoontz/TypeyPipe/releases/download/v0.1.0/typeypipe-v0.1.0-linux-x64.tar.gz"
-    sha256 "e1c81657acf4069e3a64da53616149466c6caf2d12c97759dea433cc12efab19"
+    url "https://github.com/dkoontz/TypeyPipe/releases/download/v0.2.0/typeypipe-v0.2.0-linux-x64.tar.gz"
+    sha256 "b3c034e02961f28c2819f0b0cf800e474b141928acc9cacbf560e39027da1914"
   end
 
   def install
